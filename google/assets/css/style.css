@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style:none;
+    text-decoration: none;
+    font-family:arial,sans-serif;
+}
+
+.container{
+    width:1300px;
+    display:flex;
+    height:auto;
+}
+
+header,
+section,
+footer{
+    display:flex;
+    justify-content: center;
+}
+
+header div{
+    width:100%;
+}
+
+.info{
+    display:flex;
+    justify-content: flex-end;
+    padding-top:20px;
+    align-items:center;
+}
+
+.info a{
+    color: rgba(0,0,0,0.87);
+    font-size:13px;
+    margin-right:15px;
+}
+
+.info a:hover{
+    color:#5f6368;
+    text-decoration: underline;
+}
+
+.info button{
+    border:1px solid #4285f4;
+    border-radius:2px;
+    padding:8px 15px 8px 15px;
+    color:#fff;
+    background-color:#4285f4;
+    cursor:default;
+    font-weight: bold;
+}
+
+section .info{
+    width:100%;
+    /* min-height:590px; */
+    justify-content: center;
+}
+
+
+.info_items{
+    background-color:#ccc;
+    display:flex;
+    justify-content: space-between;
+}
+
+/* .column{
+    flex-direction:column;
+} */
+
+
+section{
+    display:flex;
+    width:100%;
+}
+
+.search{
+    padding-top:20px;
+    padding-bottom:40px;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+}
+
+.search .img{
+    display:flex;
+    justify-content:center;
+}
+
+.search img{
+    margin-top:78px;
+    background-size: cover;
+    background-position:center;
+    width: 275px;
+    display:block;
+}
+
+.search label{
+    display:flex;
+    justify-content: center; 
+}
+
+.search input{
+    display:block;
+    width:447px;
+    height:34px;
+    border:1px solid #C6C6C6C6;
+    box-shadow: 0px 0px 1px #eabeab;
+    margin-top:23px;
+}
+
+.search .but{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.search button{
+    background-color:#f2f2f2;
+    border:1px solid #f2f2f2;
+    border-radius:4px;
+    color:#5F6368;
+    font-size:14px;
+    margin:11px 4px;
+    padding:0 16px;
+    line-height:27px;
+    height:36px;
+    min-width:54px;
+    text-align:center;
+    cursor:pointer;
+}
+
+.search button:hover{
+    border:1px solid #C6C6C6C6;
+    color:#572943;
+}
+
+footer{
+    width:100%;
+    margin-top:215px; 
+}
+
+footer a{
+    color:#5f6368;
+    padding-right: 26px;
+    font-size:14px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer .container{
+    display:flex;
+    justify-content: space-between;
+}

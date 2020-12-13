@@ -1,0 +1,24 @@
+body{
+    display:flex;
+    justify-content:center;
+    height:500px;
+    align-items:center;
+}
+
+input{
+    background-color:rgb(51, 51, 255);
+    padding:10px;
+    padding-left:30px;
+    padding-right:30px;
+    font-size:35px;
+    border-radius:10px;
+    cursor:pointer;
+    color:#fff;
+    border:1px solid rgb(51, 51, 255);
+    box-shadow: 1px 1px 5px #000;
+}
+
+input:hover{
+    background-color:rgb(77, 77, 255);
+    border:1px solid rgb(77, 77, 255);
+}
